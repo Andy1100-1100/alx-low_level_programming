@@ -5,17 +5,17 @@
  *
  * Return: Always 0
  */
+
 int main(void)
 
 {
-	char letter;
+	int i;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	for (i = 0; i < 10; i++)
+
 	{
-		if (letter != 'e' && letter != 'q')
-			putchar(letter);
+		printf("%d\n", i);
 	}
-		putchar('\n');
 
 	return (0);
 }
