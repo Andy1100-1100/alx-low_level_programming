@@ -1,4 +1,4 @@
-#include "MAIN_H"
+#include "MAIN.H"
 /**
  * _print_rev_recursion - Prints string in reverse.
  * @s: string to be printed.
